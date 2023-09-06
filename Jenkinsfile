@@ -27,7 +27,7 @@ pipeline{
             type: 'jar']], credentialsId: 'NexusID', groupId: 'qa', 
             nexusUrl: '198.58.119.40:8081/repository/rasidat/', 
             nexusVersion: 'nexus3', protocol: 'http', 
-            repository: 'rasidat', version: '002'
+            repository: 'rasidat', version: '0.0.2-SNAPSHOT'
             }
         }
     }
